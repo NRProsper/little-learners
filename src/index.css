@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-orange-97 font-raleway;
+}
+
+.nav-link:nth-child(:last-of-type) {
+    @apply bg-orange-75
+}
+
+.hero-card {
+    box-shadow: 6px 6px 0 #FFBE99;
+}
+
+.number {
+    @apply  flex justify-center flex-col font-outfit;
+}
+.number span:first-child {
+    @apply font-extrabold text-[34px];
+}
+.number span:last-of-type {
+    @apply font-medium text-[16px];
+}

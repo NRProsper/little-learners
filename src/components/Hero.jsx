@@ -6,7 +6,7 @@ const Hero = () => {
                 <div className="hero-wrapper flex items-center gap-[60px]">
                     <div className="img-wrapper h-[785] w-[785px] bg-orange-80">
                         <div className="img relative w-full h-full border border-gray-15">
-                            <img src={HeroImg} alt="" className="w-full h-full border-4 border-orange-65"/>
+                            <img src={HeroImg} alt="" className="hero-img relative w-full h-full border-4 border-orange-65"/>
                         </div>
                     </div>
                     <div className="text">

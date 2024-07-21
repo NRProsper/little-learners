@@ -16,6 +16,9 @@ body {
 .hero-card {
     box-shadow: 6px 6px 0 #FFBE99;
 }
+.ben-card {
+    box-shadow: 6px 6px 0 #1E1E1E;
+}
 
 .number {
     @apply  flex justify-center flex-col font-outfit;

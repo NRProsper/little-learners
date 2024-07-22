@@ -6,6 +6,7 @@ import envi from "../assets/img/environment.png"
 import flag from "../assets/img/flag.png"
 import attention from "../assets/img/attentetion.png"
 import people from "../assets/img/people.png"
+import SectionWrapper from "../layoutes/SectionWrapper.jsx";
 
 const benefits = [
     {
@@ -42,28 +43,17 @@ const benefits = [
 
 const Benefits = () => {
     return (
-        <section id="benefits" className="my-[70px]">
-            <div className="container mx-auto px-[24px]">
-                <div className="benefits-container flex items-center justify-center flex-col gap-y-[100px]">
-                    <div className="top flex items-center justify-center flex-col">
-                        <SectionTitle>
-                            <h3>Children Deserve Bright Future</h3>
-                        </SectionTitle>
-                        <h1 className="font-bold text-[58px] my-3">Our Benefits</h1>
-                        <p className="font-outfit text-[20px] font-medium text-center">With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum,<br /> we aim to lay a strong foundation for your child's future.</p>
-                    </div>
-                    <div className="bottom-cards">
-                        <div className="grid grid-cols-3 grid-rows-2 gap-x-[40px] gap-y-[60px]">
-                            {
-                                benefits.map((benefit, idx) => (
-                                    <BenefitsCard key={idx} benefit={benefit} />
-                                ))
-                            }
-                        </div>
-                    </div>
+        <SectionWrapper mini={"Children Deserve Bright Future"} title={"Our Benefits"} description={"With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum,<br /> we aim to lay a strong foundation for your child's future."}>
+            <div className="bottom-cards">
+                <div className="grid grid-cols-3 grid-rows-2 gap-x-[40px] gap-y-[60px]">
+                    {
+                        benefits.map((benefit, idx) => (
+                            <BenefitsCard key={idx} benefit={benefit}/>
+                        ))
+                    }
                 </div>
             </div>
-        </section>
+        </SectionWrapper>
     );
 }
 

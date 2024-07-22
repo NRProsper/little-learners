@@ -1,6 +1,7 @@
 import Announcements from "../components/Announcements.jsx";
 import NavBar from "../components/NavBar.jsx";
 import {Outlet} from "react-router-dom";
+import Footer from "../components/Footer.jsx";
 
 const Root = () => {
     return (
@@ -12,6 +13,7 @@ const Root = () => {
             <main>
                 <Outlet />
             </main>
+            <Footer />
         </>
     )
 }

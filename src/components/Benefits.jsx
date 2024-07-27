@@ -1,4 +1,3 @@
-import SectionTitle from "./SectionTitle.jsx";
 import BenefitsCard from "./BenefitsCard.jsx";
 import graduation from "../assets/img/graduation.png"
 import crown from "../assets/img/crown.png"
@@ -45,7 +44,7 @@ const Benefits = () => {
     return (
         <SectionWrapper mini={"Children Deserve Bright Future"} title={"Our Benefits"} description={"With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum,<br /> we aim to lay a strong foundation for your child's future."}>
             <div className="bottom-cards">
-                <div className="grid grid-cols-3 grid-rows-2 gap-x-[40px] gap-y-[60px]">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:grid-rows-2 md:gap-x-[40px] gap-y-[60px]">
                     {
                         benefits.map((benefit, idx) => (
                             <BenefitsCard key={idx} benefit={benefit}/>

@@ -1,6 +1,11 @@
 import Logo from "../assets/img/header-logo.svg"
 import { IoMail as Mail } from "react-icons/io5";
-import { FaPhone as Phone, FaLocationDot as Location, FaXTwitter as XTwitter, FaLinkedin as Linkedin } from "react-icons/fa6";
+import {
+    FaPhone as Phone,
+    FaLocationDot as Location,
+    FaXTwitter as XTwitter,
+    FaLinkedin as Linkedin
+} from "react-icons/fa6";
 import { SiFacebook as Facebook } from "react-icons/si";
 
 
@@ -30,7 +35,7 @@ const Footer = () => {
             <div className="container mx-auto">
                 <div className="card_shadow border-2 border-gray-15 rounded-[12px] px-[113px] pt-[80px] pb-[40px]">
                     <div className="footer-content">
-                        <div className="top flex items-start justify-between">
+                        <div className="top flex flex-col lg:flex-row items-start justify-between">
                             <div className="left">
                                 <div className="us mb-[50px]">
                                     <img src={Logo} alt=""/>
@@ -57,7 +62,7 @@ const Footer = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className="right flex gap-[30px]">
+                            <div className="right mt-12 lg:mt-0 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px]">
                                 {
                                     links.map((link, idx) => (
                                         <div key={idx} className="p-links font-outfit">
@@ -76,9 +81,9 @@ const Footer = () => {
                         </div>
                         <div className="bottom mt-[50px]">
                             <div
-                                className="top py-[30px] border-gray-15 border-b border-t mb-[20px] flex items-center justify-between">
+                                className="top py-[30px] border-gray-15 border-b border-t mb-[20px] flex flex-col md:flex-row items-start space-y-2 md:space-y-0 md:items-center justify-between">
                                 <div className="links">
-                                <a href="">Terms of Service</a>
+                                    <a href="">Terms of Service</a>
                                     <a href="">Privacy Policy</a>
                                     <a href="">Cookie Policy</a>
                                 </div>

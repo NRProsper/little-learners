@@ -14,7 +14,7 @@ const Testimonials = () => {
                     modules={[Navigation]}
                     navigation={false}
                     spaceBetween={50}
-                    slidesPerView={3}
+                    slidesPerView={1}
                     breakpoints={{
                         1024: {
                             slidesPerView: 3,
@@ -24,7 +24,7 @@ const Testimonials = () => {
                         },
                         640: {
                             slidesPerView: 1,
-                        },
+                        }
                     }}
             >
                 <SwiperSlide className=""><TestimonialCard/></SwiperSlide>

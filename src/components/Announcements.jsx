@@ -5,7 +5,7 @@ import {FaArrowRight as Arrow} from "react-icons/fa6";
 const Announcements = ({className}) => {
     return (
         <div id="announcement" className={`${className}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-2 xl:px-0">
                 <div className="relative border-2 border-gray-15  py-[14px] rounded-[8px] text-center bg-orange-90 overflow-hidden">
                     <img className="absolute -bottom-6 -left-24 md:-left-2 " src={abstract} alt=""/>
                     <Link to={""} className="relative z-10 font-medium text-[20px] flex items-center justify-center space-x-2">

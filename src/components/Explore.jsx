@@ -30,7 +30,7 @@ const Explore = () => {
             title={"Navigate through our Pages"}
             description={"Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore <br /> and learn more about the enriching experiences that await your child at our kindergarten school"}
         >
-            <div className="pages grid-cols-2 grid gap-[50px]">
+            <div className="pages grid-cols-1 lg:grid-cols-2 grid gap-[50px]">
                 {
                     pages.map((page, idx) => (
                         <Card key={idx}>

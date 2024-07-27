@@ -1,4 +1,4 @@
-import HeroImg from "../assets/img/hero.png"
+import HeroImg from "../../assets/img/hero.png"
 const Hero = () => {
     return(
         <section id="hero" className="my-[60px]">

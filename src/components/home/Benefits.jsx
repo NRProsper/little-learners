@@ -1,11 +1,11 @@
-import BenefitsCard from "./BenefitsCard.jsx";
-import graduation from "../assets/img/graduation.png"
-import crown from "../assets/img/crown.png"
-import envi from "../assets/img/environment.png"
-import flag from "../assets/img/flag.png"
-import attention from "../assets/img/attentetion.png"
-import people from "../assets/img/people.png"
-import SectionWrapper from "../layoutes/SectionWrapper.jsx";
+import BenefitsCard from "../BenefitsCard.jsx";
+import graduation from "../../assets/img/graduation.png"
+import crown from "../../assets/img/crown.png"
+import envi from "../../assets/img/environment.png"
+import flag from "../../assets/img/flag.png"
+import attention from "../../assets/img/attentetion.png"
+import people from "../../assets/img/people.png"
+import SectionWrapper from "../../layoutes/SectionWrapper.jsx";
 
 const benefits = [
     {

@@ -1,4 +1,4 @@
-import Announcements from "../components/Announcements.jsx";
+import Announcements from "../components/home/Announcements.jsx";
 import NavBar from "../components/NavBar.jsx";
 import {Outlet} from "react-router-dom";
 import Footer from "../components/Footer.jsx";
@@ -10,7 +10,7 @@ const Root = () => {
                <Announcements className={"mb-[14px]"} />
                <NavBar />
            </header>
-            <main>
+            <main className="min-h-screen">
                 <Outlet />
             </main>
             <Footer />

@@ -1,10 +1,10 @@
-import SectionTitle from "./SectionTitle.jsx";
+import SectionTitle from "../SectionTitle.jsx";
 
-import TestimonialCard from "./TestimonialCard.jsx";
+import TestimonialCard from "../TestimonialCard.jsx";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
-import SectionWrapper from "../layoutes/SectionWrapper.jsx";
+import SectionWrapper from "../../layoutes/SectionWrapper.jsx";
 const Testimonials = () => {
 
 

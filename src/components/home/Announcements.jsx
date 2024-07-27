@@ -1,4 +1,4 @@
-import abstract from "../assets/img/abstract-orange.svg"
+import abstract from "../../assets/img/abstract-orange.svg"
 import {Link} from "react-router-dom";
 import {FaArrowRight as Arrow} from "react-icons/fa6";
 

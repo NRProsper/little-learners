@@ -7,7 +7,7 @@ const links = [
         title: "Home"
     },
     {
-        to: "/",
+        to: "about",
         title: "About us"
     },
     {

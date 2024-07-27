@@ -1,5 +1,5 @@
-import SectionWrapper from "../layoutes/SectionWrapper.jsx";
-import Question from "./Question.jsx";
+import SectionWrapper from "../../layoutes/SectionWrapper.jsx";
+import Question from "../Question.jsx";
 
 const FAQ = () => {
     return (

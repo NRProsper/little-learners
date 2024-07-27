@@ -1,8 +1,8 @@
-import Hero from "../components/Hero.jsx";
-import Benefits from "../components/Benefits.jsx";
-import Testimonials from "../components/Testimonials.jsx";
-import FAQ from "../components/FAQ.jsx";
-import Explore from "../components/Explore.jsx";
+import Hero from "../components/home/Hero.jsx";
+import Benefits from "../components/home/Benefits.jsx";
+import Testimonials from "../components/home/Testimonials.jsx";
+import FAQ from "../components/home/FAQ.jsx";
+import Explore from "../components/home/Explore.jsx";
 
 
 const Home = () => {

@@ -1,6 +1,6 @@
-import SectionWrapper from "../layoutes/SectionWrapper.jsx";
-import Card from "./Card.jsx";
-import Button from "./Button.jsx";
+import SectionWrapper from "../../layoutes/SectionWrapper.jsx";
+import Card from "../Card.jsx";
+import Button from "../Button.jsx";
 
 
 const Explore = () => {
